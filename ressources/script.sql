@@ -5,7 +5,6 @@ TODO : vérifier ordre pour la création
 DROP TABLE IF EXISTS UTILISATEURS;
 CREATE TABLE UTILISATEURS(
 	id 				INT 			NOT NULL	PRIMARY KEY		AUTO_INCREMENT,
-	nom 			VARCHAR(100) 	NOT NULL 	DEFAULT 'Utilisateur',
 	login 			VARCHAR(100) 	NOT NULL,
 	password 		VARCHAR(255) 	NOT NULL
 );

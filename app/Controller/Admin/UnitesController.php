@@ -34,8 +34,8 @@ class UnitesController extends AppController {
             ]);
             return $this->index();
         }
-        $category = $this->Unite->find($_GET['id']);
-        $form = new BootstrapForm($category);
+        $unite = $this->Unite->find($_GET['id']);
+        $form = new BootstrapForm($unite);
         $this->render('admin.unites.edit', compact('form'));
     }
 

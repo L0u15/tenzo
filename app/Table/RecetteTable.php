@@ -12,9 +12,9 @@ class RecetteTable extends Table {
      * Récupère les dernières recettes
      * @return array
      */
-    public function last(){
+    public function all(){
         return $this->query("
-                SELECT recettes.id, recettes.nom, utilisateurs.nom as auteur
+                SELECT recettes.id, recettes.nom, utilisateurs.login as auteur
                 FROM recettes
                 LEFT JOIN utilisateurs ON utilisateur_id = utilisateurs.id");
     }

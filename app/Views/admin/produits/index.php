@@ -1,5 +1,4 @@
 <h1>Administrer les produits</h1>
-
 <p>
     <a href="?p=admin.produits.add" class="btn btn-success">Ajouter</a>
 </p>
@@ -17,7 +16,7 @@
             <tr>
                 <td><?= $produit->id; ?></td>
                 <td><?= $produit->nom; ?></td>
-                <td><?= $produit->Unite; ?></td>
+                <td><?= $produit->unite; ?></td>
                 <td>
                     <a class="btn btn-primary" href="?p=admin.produits.edit&id=<?= $produit->id; ?>">Editer</a>
                     <form action="?p=admin.produits.delete" method="post" style="display:inline;">

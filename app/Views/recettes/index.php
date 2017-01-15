@@ -1,4 +1,6 @@
 <div class="row">
+    <?php var_dump($recettes);?>
+    <?php var_dump($auteurs);?>
     <div class="col-sm-8">
         <ul>
             <?php foreach ($recettes as $recette): ?>
