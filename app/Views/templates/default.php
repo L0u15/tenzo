@@ -21,7 +21,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.php">Project name</a>
+                    <a class="navbar-brand" href="index.php">Tenzo</a>
                 </div>
             </div>
         </nav>

@@ -11,7 +11,7 @@ class Form {
     /**
      * @var array Données utilisées par le formulaire
      */
-    private $data;
+    public $data;
 
     /**
      * @var string Tag utilisé pour entourer les champs
